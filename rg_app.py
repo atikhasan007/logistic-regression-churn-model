@@ -6,7 +6,7 @@ import pickle
 from sklearn.preprocessing import LabelEncoder, StandardScaler
 
 # Load model
-model = pickle.load(open('/home/catpc/7_logistic_model.pkl','rb'))
+model = pickle.load(open('7_logistic_model.pkl','rb'))
 
 # Create web app
 st.title("Logistic Regression for Churn Prediction")
